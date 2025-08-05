@@ -4,10 +4,24 @@ html{
     font-weight:500;
     height:800;
     width:500;
-    background-color: lightgreen;
+    background-color: cyan;
     display:grid;
     grid-template-rows: 100px 100px 100px 100px 100px;
     row-gap: 50px;
+}
+
+header{
+    display:inline-flex;
+    justify-content: end;
+    background-color: mediumspringgreen;
+    padding: 10px;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
 }
 
 h1{
@@ -15,23 +29,6 @@ h1{
     grid-row-end:span 1;
     font-size:48px;
     font-weight:700;
-}
-.about {
-    grid-row-start: 2;
-    grid-row-end:span 1;
-}
-.skills {
-    grid-row-start: 3;
-    grid-row-end:span 1;
-    align-items: center;
-}
-.projects{
-    grid-row-start:4;
-    grid-row-end: span 1;
-}
-.contact{
-    grid-row-start:5;
-    grid-row-end: span 1;
 }
 
 h2{
@@ -44,4 +41,47 @@ h3{
 
 p{
     font-size: 24px;
+    font-weight: 300;
+}
+
+img{
+    height:50px;
+    width: 50px;
+}
+
+.postsql img{
+    height: 50px;
+    width: 50px;
+}
+
+.icons{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.icons > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about {
+    grid-row-start: 2;
+    grid-row-end:span 1;
+}
+.skills {
+    grid-row-start: 3;
+    grid-row-end:span 1;
+    align-items: center;
+}
+
+.projects{
+    background-color: limegreen;
+    grid-row-start:4;
+    grid-row-end: span 1;
+}
+.contact{
+    grid-row-start:5;
+    grid-row-end: span 1;
 }
