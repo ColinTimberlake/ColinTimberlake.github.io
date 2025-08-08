@@ -86,7 +86,30 @@ img{
     grid-row-start:4;
     grid-row-end: span 1;
 }
+
+.secondButton{
+    display: none;
+}
+
+.secondButton button{
+    margin-top: 20px;
+}
+
+.thirdButton{
+    display: none;
+}
+
+.thirdButton p{
+    display:none;
+    margin-top: 20px;
+}
+
+.thirdButton button{
+    margin-top: 20px;
+}
+
 .contact{
     grid-row-start:5;
     grid-row-end: span 1;
+
 }
