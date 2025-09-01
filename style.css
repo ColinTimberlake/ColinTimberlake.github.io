@@ -111,21 +111,22 @@ img{
 .contact{
     grid-row-start:5;
     grid-row-end: span 1;
+    width:100%
 }
 
 @media only screen and (max-width: 480px){
     html {
         font-size: 14px;
+        width:auto
     }
     header {
         flex-direction: column;
         align-items: flex-end;
-        margin-right:30px;
     }
     nav ul {
         flex-direction: row;
         align-items:flex-end;
-        gap: 30px;
+        gap: 20px;
     }
     .icons {
         flex-direction: column;
@@ -136,5 +137,3 @@ img{
         grid-row-end: auto;
     }
 }
-
-
